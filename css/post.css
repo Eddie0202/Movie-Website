@@ -1,0 +1,286 @@
+.search {
+	width: 30px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 50px;
+	font-size: 16px;
+	background-color: black;
+	background-image: url('search-icon.png');
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	padding: 12px 10px 12px 40px;
+	transition: width 0.4s ease-in-out;
+  
+}
+
+.search:focus {
+	width: 100%;
+  	border-radius: 4px;
+
+}
+
+
+
+.nav-item :hover{
+	background-color:red;
+}
+
+.border1{
+	border: 3px solid white;
+	
+}
+.sex{
+	position:absolute;
+	top:35%;
+	left:10%;
+	
+}
+
+.hair {
+	position:absolute;
+	height:15%;
+	width:50%;
+	top:30%;
+	left:25%;
+	opacity:0;
+	text-align:center;
+	padding-top:50px;
+}
+.hair:hover {
+	opacity:1;
+}
+
+.forehead {
+	position:absolute;
+	height:10%;
+	width:45%;
+	top:45%;
+	left:25%;
+	opacity:0;
+	text-align:center;
+	padding-top:20px;
+}
+.forehead:hover {
+	opacity:1;
+}
+
+.eyes {
+	position:absolute;
+	height:5%;
+	width:50%;
+	top:57%;
+	left:22%;
+	opacity:0;
+	text-align:left;
+	padding-top:5px;
+}
+.eyes:hover {
+	opacity:1;
+}
+.nose {
+	position:absolute;
+	height:10%;
+	width:12%;
+	top:62%;
+	left:42%;
+	opacity:0;
+	text-align:center;
+	padding-top:10px;
+}
+.nose:hover {
+	opacity:1;
+}
+
+.cheekbones-left {
+	position:absolute;
+	height:15%;
+	width:14%;
+	top:62%;
+	left:28%;
+	opacity:0;
+	text-align:center;
+	padding-top:20px;
+}
+.cheekbones-left:hover {
+	opacity:1;
+}
+
+.cheekbones-right {
+	position:absolute;
+	height:15%;
+	width:14%;
+	top:62%;
+	right:30%;
+	opacity:0;
+	text-align:center;
+	padding-top:20px;
+}
+.cheekbones-right:hover {
+	opacity:1;
+}
+
+.lip {
+	position:absolute;
+	height:5%;
+	width:17%;
+	top:73%;
+	left:40%;
+	opacity:0;
+	text-align:center;
+	padding-top:10px;
+}
+.lip:hover {
+	opacity:1;
+}
+
+.chin {
+	position:absolute;
+	height:5%;
+	width:20%;
+	top:78%;
+	left:38%;
+	opacity:0;
+	text-align:center;
+	padding-top:5px;
+}
+.chin:hover {
+	opacity:1;
+}
+
+.news{
+	padding-top:10px;
+	font-size:small;
+}
+.news p{
+	margin:0;
+}
+
+.news img{
+	width:100%;
+}
+
+.news hr{
+	margin:0;
+}
+a:link {
+  color: gray;
+}
+a:visited{
+	color:gray;
+	text-decoration: none;
+}
+a:hover{
+	color:white;
+}
+
+.row{
+	margin:0;
+}
+.fa-heart:hover{
+	color:red;
+}
+.fa-bell:hover{
+	color:orange;
+}
+.fa-comment:hover{
+	color:green;
+}
+.fa-star:hover{
+	color:orange;
+}
+.fa-star{
+	color:orange;
+}
+
+.card{
+	padding:5px;
+	margin-top:10px;
+}
+.review{
+	font-size:small;
+}
+
+.card:hover{
+	border-color:green;
+	
+}
+.lienket {
+	padding:5px;
+}
+.lienket a:visited{
+	color:white;
+	text-decoration: none;
+}
+.lienket a:hover{
+	color:green;
+	
+}
+.infor p{
+	margin:0;
+}
+.hinhanh {
+	margin-top:10%;
+	text-align: center;
+}
+.newfeed{
+	margin:20px;
+	border-radius:10px;
+}
+.tuongtac{
+	float:right;
+}
+#style-1::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+	
+}
+#style-1::-webkit-scrollbar-thumb {
+    background-color: #50A625;
+	border-radius:10px;
+}
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+	border-radius:10px;
+}
+.tieude {
+	margin:30px 30px 0 30px;
+	border-bottom: 1px solid green;
+	
+}
+.tieude1 {
+	margin:0 30px 0 30px;
+	border-bottom: 1px solid green;
+	
+}
+.breadcrumb a:visited{
+	color:white;
+}
+.chuyenhuong{
+	margin:10px 0 10px 0;
+}
+.imagesp img{
+	border:1px solid silver;
+	margin:5px;
+	padding:20px 10px 20px 10px;
+}
+.imagespphu img{
+	width:20%;
+	height:50px;
+	padding:5px;
+}
+.review1 {
+	padding:10px;
+}
+.mau {
+	background-color:gray;
+}
+.ndung{
+	padding-top:10px;
+}
+.cmt p{
+	margin:0;
+}
+
+
+

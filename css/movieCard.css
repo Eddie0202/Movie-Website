@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body
+{
+	margin:0;
+	padding:0;
+	background-size: cover;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+	padding: 50px 0;
+}
+
+button{
+	padding:15px;
+	margin: 30px;
+	background-color:#0000FF;
+	border: 1px solid #fff;
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+button:hover{
+	transition: all 0.5s ease;
+	border:1px solid rgb(61,180,248);
+	box-shadow:0 0 15px 5px rgba(40,170,200,1)
+}
+
+#boxs .box:nth-child(n+7){
+	display: none;
+}
+
+.card{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	height: 450px;
+	background: #000;
+	overflow: hidden;
+	box-shadow: 0 5px 10px rgba(0,0,0.5);
+	margin-bottom: 15px;
+}
+
+.card .poster
+{
+	position: relative;
+	overflow: hidden;
+}
+
+.card .poster:before
+{
+	content:'';
+	overflow: hidden;
+	bottom:-180;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, #000 50%, transparent);
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.card .poster img
+{
+	width:100%;
+	transition: 0.5s;
+}
+
+.card:hover .poster img
+{
+
+	filter: blur(5px);
+	transform: translateY(-50px);
+}
+
+.card:hover .poster before
+{
+	bottom: 0;
+}
+
+.card:hover .details
+{
+	bottom: 0px;
+}
+
+.details
+{
+	position: absolute;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	bottom: -325px;
+	left: 0;
+	box-sizing: border-box;
+	transition: 0.5s;
+	z-index: 2;
+}
+
+
+
+.details h2
+{
+	color: #fff;
+	margin:0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.details h2 span
+{
+	font-size: 14px;
+	color: #ff9800;
+}
+
+.rating
+{
+	position:relative;
+	padding: 5px 0;
+}
+
+.rating .fa
+{
+	color: #f7f406;
+	margin-right: 2px;
+	font-size: 16px;
+}
+
+.rating span
+{
+	color: #fff;
+	padding: 0 5px;
+}
+
+.tags
+{
+	position:relative;
+	margin-top: 5px;
+	
+}
+
+.tags span
+{
+	padding: 2px 5px;
+	margin-right: 2px;
+	color: #fff;
+	display: inline-block;
+	border-radius: 4px;
+}
+
+.tags span.fantasy
+{
+	background: #7206f7;
+}
+.tags span.action
+{
+	background: #ff0000;
+}
+.tags span.superHero
+{
+	background: #ffcccb;
+}
+
+.info p
+{
+	margin: 15px 0 10px;
+	font-weight: bold;
+	color: white;
+}
+
+ /* css for comment section */
+ 
+ .date {
+    font-size: 11px
+}
+
+.comment-text {
+    font-size: 12px
+}
+
+.fs-12 {
+    font-size: 12px
+}
+
+.shadow-none {
+    box-shadow: none
+}
+
+.name {
+    color: #007bff
+}
+
+.cursor:hover {
+    color: blue
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.textarea {
+    resize: none
+}
+
+
+
